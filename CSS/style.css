@@ -86,4 +86,20 @@ ul li.checked{
 ul li.checked::before{
     background-image: url('/Assets/circle-check-solid.svg');
 }
+ul li span{
+    position: absolute;
+    right: 0px;
+    top: 5px;
+    width: 30px;
+    height: 30px;
+    font-size: 22px;
+    color: #555;
+    text-align: center;
+    
+}
+ul li span:hover{
+    background: #edeef0;
+    color: #ff5945;
+    border-radius: 50%;
 
+}
